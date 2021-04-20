@@ -18,7 +18,9 @@ body {
 }
 
 /********************************* NAVBAR *********************************/
-
+nav {
+  z-index: 1;
+}
 
 /*------------------------ NAV LINKS ------------------------*/
 nav a.nav-link {
@@ -48,11 +50,19 @@ nav ul li {
 /********************************* HOME *********************************/
 .home-wrapper {
   position: relative;
-  /* background: url(home.jpg) no-repeat;  */
-  /* background-size: cover;  */
-  background-color: white;
-  background-position: center;
-  height: 90vh
+  height: 100vh
+}
+
+.home-wrapper::before {    
+  content: "";
+  background-image: url(home.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.12;
 }
   
 
@@ -291,18 +301,36 @@ nav ul li {
 .typed-text{
   font-size: 1rem;
   color: black;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 600px) {
   .typed-text{
     font-size: .85rem;
     color: black;
+    margin-bottom: .5rem;
   }
 }
 
 @media screen and (max-width: 360px) {
   .typed-text{
-    font-size: .5rem;
+    font-size: .25rem;
     color: black;
   }
+}
+
+/*------------------------ BUTTON ------------------------*/
+.btn-main-offer{
+  border: 1px solid; 
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: .5rem;
+  color: black;
+}
+
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: white;
+  transition: .2s ease-in-out;
 }
