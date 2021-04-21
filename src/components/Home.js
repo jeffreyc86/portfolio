@@ -24,7 +24,6 @@ function Home () {
             <Link to="/contact" className="btn-main-offer">
                 Contact Me
             </Link>
-            
             </div>
         </div>
     )

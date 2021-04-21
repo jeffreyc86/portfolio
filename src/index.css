@@ -334,3 +334,44 @@ nav ul li {
   color: white;
   transition: .2s ease-in-out;
 }
+
+/********************************* ABOUT *********************************/
+.photo-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img{
+  width: 18rem;
+  padding: 0.3rem;
+  border-radius: 50%;
+  border: 1px solid var(--primary-color)
+}
+
+.abt-heading{
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.about{
+  font-size: .8rem;
+}
+
+@media(max-width: 468px) {
+  .profile-img{
+    width: 10rem;
+  }
+}
+
+@media(max-width: 360px) {
+  .abt-heading{
+    font-size: 2rem
+  }
+
+  .about{
+    font-size: .7rem;
+  }
+}
+
