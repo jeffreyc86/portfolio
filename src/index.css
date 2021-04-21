@@ -486,6 +486,139 @@ nav ul li {
     width: 100%;
   }
 
+}
 
+ /********************************* PORTFOLIO *********************************/
+ .portfolio-wrapper{
+   background: var(--primary-light-grey);
+   padding: 3rem 0;
+ }
 
+ .portfolio-wrapper h1{
+   color: green;
+ }
+
+ .portfolio-image{
+   width: 15rem;
+   height: 8.7rem;
+   border: 1px solid var(--primary-color);
+   padding: 0 0.5rem;
+ }
+
+ .portfolio-image-box{
+   position: relative;
+   margin: 1rem;
+ }
+
+ .overflow {
+   position: absolute;
+   opacity: 0;
+   background: black;
+   width: 15rem;
+   height: 8.7rem;
+   top: 0;
+   border: 1px solid var(--primary-color);
+   cursor: pointer;
+ }
+
+ .portfolio-image-box:hover .overflow {
+   opacity: 60%;
+   transition: 0.3s ease-in-out;
+ }
+
+ .portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+ }
+
+ .portfolio-image-box:hover .portfolio-icon{
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+ }
+
+/*------------------------ POPUP ------------------------*/
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0.5rem; 
+  border: .025rem solid var(--primary-grey);
+  border-radius: .25rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: black;
+  margin: 0 1rem;
+}
+
+.hyper-link:hover{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.popupbox-titleBar span{
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.popup-desc{
+  font-size: .8rem;
+  width: 45rem;
+  margin: .5rem 0;
+}
+
+.popup-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.popup-icon {
+  margin-right: .25rem;
+}
+
+@media(max-width: 768px){
+
+  .portfolio-image-popupbox{
+    width: 100%;
+  }
+
+  .popup-desc{
+    font-size: .5rem;
+    width: 100%;
+    margin: .25rem 0;
+  }
+
+  .popup-links{
+    font-size: .75rem;
+  }
+}
+
+@media(max-height: 570px){
+  .popupbox-wrapper{
+    height: 100%;
+  }
+
+  .portfolio-image-popupbox{
+    width: 50%;
+  }
+}
+
+@media(max-height: 280px){
+  .popupbox-wrapper{
+    height: 90%;
+  }
+
+  .portfolio-image-popupbox{
+    width: 30%;
+  }
+}
+
+@media(max-width: 465px){
+  .popup-links{
+    font-size: .5rem;
+  }
 }

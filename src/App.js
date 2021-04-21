@@ -4,6 +4,7 @@ import {Route, Switch} from "react-router-dom"
 import Home from "./components/Home"
 import About from "./components/About"
 import Experience from "./components/Experience"
+import Portfolio from "./components/Portfolio"
 
 function App() {
 
@@ -16,6 +17,9 @@ function App() {
         </Route>
         <Route exact path="/about">
           <About />
+        </Route>
+        <Route exact path="/portfolio">
+          <Portfolio />
         </Route>
         <Route exact path="/experience">
           <Experience />
