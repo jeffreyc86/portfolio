@@ -6,11 +6,12 @@ import About from "./components/About"
 import Experience from "./components/Experience"
 import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 function App() {
 
   return (
-    <div>
+    <div class="app">
       <Navbar />
       <Switch>
         <Route exact path="/">
@@ -29,6 +30,7 @@ function App() {
           <Contact />
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 }

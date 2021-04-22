@@ -5,7 +5,6 @@ function Experience() {
     return (
         <div className="experience">
             <div className="d-flex justify-content-center my-4">
-
                 <h1>Experience</h1>
             </div>
             <div className="container experience-wrapper">

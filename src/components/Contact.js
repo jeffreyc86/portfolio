@@ -37,7 +37,7 @@ function Contact () {
         <div className="contact">
             <div className="text-center">
                 <h1>Contact Me</h1>
-                <p>Please fill out the form below and blah blah blah. I'll contact you as soon as possible.</p>
+                <p>Please fill out the form below to get in touch. I look forward to meeting you.</p>
                 <span className="success-message">{successMessage}</span>
             </div>
             <div className="container">
@@ -49,7 +49,7 @@ function Contact () {
                                 <input 
                                     type="text"
                                     className="form-control" 
-                                    placeholder="Name" 
+                                    placeholder="NAME" 
                                     name="name" 
                                     {...register("name", {
                                         required: "Please enter your name",
@@ -66,24 +66,21 @@ function Contact () {
                             <div className="text-center">
                                 <input 
                                     className="form-control" 
-                                    placeholder="Phone Number" 
+                                    placeholder="PHONE NUMBER (OPTIONAL)" 
                                     name="phone" 
                                     type="text"
-                                    {...register("phone", {
-                                        required: "Please add your phone number"
-                                        })
-                                    }
+                                    {...register("phone")}
                                 />
                                 <div className="line"></div>
                             </div>
-                            <span className="error-message">
+                            {/* <span className="error-message">
                                 {errors.phone && errors.phone.message}
-                            </span>
+                            </span> */}
                             {/* EMAIL INPUT */}
                             <div className="text-center"> 
                                 <input 
                                     className="form-control" 
-                                    placeholder="Email" 
+                                    placeholder="EMAIL" 
                                     name="email" 
                                     type="email"
                                     {...register("email", {
@@ -104,7 +101,7 @@ function Contact () {
                             <div className="text-center">
                                 <input 
                                     className="form-control" 
-                                    placeholder="Subject" 
+                                    placeholder="SUBJECT" 
                                     name="subject" 
                                     type="text"
                                     {...register("subject", {
@@ -123,7 +120,7 @@ function Contact () {
                             <div className="text-center">
                                 <textarea 
                                     className="form-control" 
-                                    placeholder="Message" 
+                                    placeholder="MESSAGE" 
                                     name="message" 
                                     type="text"
                                     {...register("message", {

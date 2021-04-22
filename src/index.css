@@ -632,6 +632,7 @@ nav ul li {
 .contact h1{
   color: var(--primary-color);
   padding: 1.3rem 0;
+  text-transform: uppercase;
 }
 
 .contact p{
@@ -698,6 +699,17 @@ textarea.form-control {
   margin: -0.3rem 0;
 }
 
+.error-message {
+  color: white;
+  background: red;
+  text-align: left;
+}
+
+.success-message {
+  font-weight: 900;
+  color: green;
+}
+
 @media(max-width: 768px){
   .contact {
     overflow-x: hidden;
@@ -709,4 +721,44 @@ textarea.form-control {
   .contact p{
     padding: 0 .4rem;
   }
+}
+
+ /********************************* FOOTER *********************************/
+.footer{
+  background: black;
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer p{
+  margin-bottom: 0;
+}
+
+.footer a{
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+  cursor: pointer
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: .3s ease-in-out;
+}
+
+.footer-contact{
+  margin-right: 1rem
+}
+
+.footer-contact-icon{
+  margin-right: .25rem;
+}
+
+.copyright {
+  font-size: .6rem;
+}
+
+.footer-icon{
+  font-size: 1.5rem;
+  margin: 0 .5rem;
 }
