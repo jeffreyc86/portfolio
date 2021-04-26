@@ -105,7 +105,7 @@ function Contact () {
                                     name="subject" 
                                     type="text"
                                     {...register("subject", {
-                                        required: "Please include a subject"
+                                        required: "Please include a subject" 
                                         })
                                     }
                                 />
