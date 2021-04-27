@@ -15,59 +15,22 @@ function Navbar () {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
-                            <NavLink 
-                                to="/"
-                                exact
-                                className="nav-link"
-                            >
-                                Home
-                                <span className="sr-only">(current)</span>
-                            </NavLink>
+                            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
-                            <NavLink 
-                                to="/about"
-                                exact
-                                className="nav-link"
-                            >
-                                About Me
-                            </NavLink>
+                            <a className="nav-link" href="#">about me</a>
                         </li>
                         <li className="nav-item">
-                            <NavLink 
-                                to="/portfolio"
-                                exact
-                                className="nav-link"
-                            >
-                                Portfolio
-                            </NavLink>
+                            <a className="nav-link" href="#">portfolio</a>
                         </li>
                         <li className="nav-item">
-                            <NavLink 
-                                to="/experience"
-                                exact
-                                className="nav-link"
-                            >
-                                Experience
-                            </NavLink>
+                            <a className="nav-link" href="#">experience</a>
                         </li>
                         <li className="nav-item">
-                            <NavLink 
-                                to="/resume"
-                                exact
-                                className="nav-link"
-                            >
-                                Resume
-                            </NavLink>
+                            <a className="nav-link" href="#">resume</a>
                         </li>
                         <li className="nav-item">
-                            <NavLink 
-                                to="/contact"
-                                exact
-                                className="nav-link"
-                            >
-                                Contact
-                            </NavLink>
+                            <a className="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>

@@ -48,7 +48,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a:hover {
-  color: 0.125rem solid var(--primary-color) !important;
+  color: var(--primary-color) !important;
 }
 
 /********************************* HOME *********************************/

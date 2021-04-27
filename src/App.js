@@ -13,23 +13,11 @@ function App() {
   return (
     <div class="app">
       <Navbar />
-      <Switch>
-        <Route exact path="/">
           <Home />
-        </Route>
-        <Route exact path="/about">
           <About />
-        </Route>
-        <Route exact path="/portfolio">
           <Portfolio />
-        </Route>
-        <Route exact path="/experience">
           <Experience />
-        </Route>
-        <Route exact path="/contact">
           <Contact />
-        </Route>
-      </Switch>
       <Footer />
     </div>
   );
