@@ -1,12 +1,12 @@
 import React from "react"
 import Typed from "react-typed"
-import {Link} from "react-router-dom"
+import {Link} from "react-scroll"
 
 function Home () {
 
 
     return (
-        <div className="home-wrapper">
+        <div id="home" className="home-wrapper">
             <div className="main-info">
                 <div className="glitch-container">
 
@@ -21,7 +21,7 @@ function Home () {
                 backSpeed={60}
                 loop
             />
-            <Link to="/contact" className="btn-main-offer">
+            <Link to="contact" smooth={true} offset={-110} className="btn-main-offer">
                 Contact Me
             </Link>
             </div>

@@ -3,14 +3,13 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css';
 import App from './App';
-import {BrowserRouter as Router} from 'react-router-dom'
 import './fonts/Neon80s.ttf'
 
 
 ReactDOM.render(
-  <Router>
+  <React.StrictMode>
     <App/>
-  </Router>,
+    </React.StrictMode>,
   document.getElementById('root')
 );
 

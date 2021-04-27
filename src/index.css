@@ -494,6 +494,10 @@ nav ul li {
    padding: 3rem 0;
  }
 
+ .popupbox-content{
+   text-align: center;
+ }
+
  .portfolio-wrapper h1{
    color: green;
  }
@@ -542,6 +546,23 @@ nav ul li {
  }
 
 /*------------------------ POPUP ------------------------*/
+.popupbox-wrapper{
+  margin-top: 4rem;
+}
+
+.popupbox-titleBar{
+  padding-top: 1px !important;
+  padding-bottom: 1px !important
+}
+
+.popupbox-btn--close{
+  top: 4px !important;
+}
+
+.popupbox-content{
+  padding: 1rem !important;
+}
+
 .portfolio-image-popupbox {
   width: 45rem;
   padding: 0.5rem; 
@@ -580,6 +601,26 @@ nav ul li {
   margin-right: .25rem;
 }
 
+/* WIDTH */
+
+@media(max-width: 1070px){
+
+  .portfolio-image-popupbox{
+    width: 100%;
+  }
+
+  .popup-desc{
+    width: 100%;
+  }
+}
+
+@media(max-width: 925px){
+
+  .popup-desc{
+    font-size: .7rem;
+  }
+}
+
 @media(max-width: 768px){
 
   .portfolio-image-popupbox{
@@ -596,32 +637,47 @@ nav ul li {
     font-size: .75rem;
   }
 }
-
-@media(max-height: 570px){
-  .popupbox-wrapper{
-    height: 100%;
-  }
-
-  .portfolio-image-popupbox{
-    width: 50%;
-  }
-}
-
-@media(max-height: 280px){
-  .popupbox-wrapper{
-    height: 90%;
-  }
-
-  .portfolio-image-popupbox{
-    width: 30%;
-  }
-}
-
 @media(max-width: 465px){
   .popup-links{
     font-size: .5rem;
   }
 }
+
+/* HEIGHT */
+
+@media(max-height: 723px){
+  .popupbox-wrapper{
+    width: auto;
+  }
+
+  .popupbox-content{
+    text-align: center;
+  }
+
+
+  .portfolio-image-popupbox{
+    width: 60%;
+  }
+
+  .popup-desc {
+   width: auto;
+  }
+}
+
+@media(max-height: 570px){
+
+  .portfolio-image-popupbox{
+    width: 40%;
+  }
+}
+
+@media(max-height: 450px){
+
+  .portfolio-image-popupbox{
+    width: 30% !important;;
+  }
+}
+
 
  /********************************* CONTACT *********************************/
 .contact {
