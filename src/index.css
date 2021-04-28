@@ -9,9 +9,16 @@
 :root {
   --primary-color: #D21f3c;
   --nav-grey: #f7f8fa;
-  --primary-light-grey: #f4f4f4;
   --primary-grey: #ccd1d9;
-  --primary-dark-grey: #666666;
+
+  --primary-light-dark: #1d1d1d;
+  --primary-medium-dark: #181818;
+  --primary-dark: #000000;
+  --primary-light-grey: #909096;
+  --primary-medium-grey: #757575;
+  --primary-dark-grey: #515152;
+  --primary-aqua: #2efcd8;
+  --primary-pink: #fc185a;
 }
 body {
   font-family: 'Source Code Pro', monospace;
@@ -377,6 +384,18 @@ nav ul li {
   .about{
     font-size: .7rem;
   }
+}
+
+/*------------------------ SKILLS ------------------------*/
+.table{
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+.table td{
+  border: none !important;
+  padding: 0 !important;
+  font-size: 0.7rem !important;
 }
 
 /********************************* EXPERIENCE *********************************/
