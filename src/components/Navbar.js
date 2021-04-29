@@ -2,9 +2,11 @@ import React from "react"
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome' 
 import {faBars} from "@fortawesome/free-solid-svg-icons"
 import {Link} from "react-scroll"
+import resume from "../resume.pdf"
 
 
 function Navbar () {
+
     
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -27,10 +29,10 @@ function Navbar () {
                             <Link smooth={true} to="experience" offset={-50} className="nav-link" href="#">experience</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="resume" offset={-50} className="nav-link" href="#">resume</Link>
+                            <Link smooth={true} to="contact" offset={-50} className="nav-link" href="#">Contact</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="contact" offset={-50} className="nav-link" href="#">Contact</Link>
+                            <a className="nav-link resume-btn" href={resume} target="_blank">resume</a>
                         </li>
                     </ul>
                 </div>

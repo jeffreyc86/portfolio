@@ -21,7 +21,7 @@ function Home () {
                 backSpeed={60}
                 loop
             />
-            <Link to="contact" smooth={true} offset={-110} className="btn-main-offer">
+            <Link to="contact" smooth={true} offset={-50} className="btn-main-offer">
                 Contact Me
             </Link>
             </div>
