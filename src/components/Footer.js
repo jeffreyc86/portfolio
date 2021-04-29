@@ -20,7 +20,7 @@ function Footer() {
                         
                     </div>
                     <div className="col footer-col my-auto">
-                        <div className="d-flex justify-content-center">
+                        <div className="d-flex footer-links">
                             <a className="footer-icon" href="https://www.linkedin.com/in/jchiu86" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
                             <a className="footer-icon" href="https://github.com/jeffreyc86" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
                             <a className="footer-icon" href="https://jeffrey-chiu.medium.com" target="_blank"><FontAwesomeIcon icon={faMedium} /></a>

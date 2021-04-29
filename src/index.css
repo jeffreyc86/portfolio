@@ -849,6 +849,10 @@ textarea.form-control {
   transition: .3s ease-in-out;
 }
 
+.footer-links{
+  justify-content: flex-end;
+}
+
 .footer-contact-icon{
   margin-right: .25rem;
 }
@@ -885,7 +889,7 @@ textarea.form-control {
   }
 }
 
-@media(max-width: 440px){
+@media(max-width: 425px){
 
   .footer-flex{
     justify-content: center !important;
@@ -901,6 +905,10 @@ textarea.form-control {
 
   .footer-contact-icon{
     display: unset;
+  }
+
+  .footer-links{
+    justify-content: center;
   }
 
   .copyright {
