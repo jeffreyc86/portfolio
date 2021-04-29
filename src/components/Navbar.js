@@ -9,7 +9,7 @@ function Navbar () {
 
     
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
                 <span></span>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={faBars} style={{color: "black"}}/>
@@ -32,7 +32,7 @@ function Navbar () {
                             <Link smooth={true} to="contact" offset={-50} className="nav-link" href="#">Contact</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link resume-btn" href={resume} target="_blank">resume</a>
+                            <a className="nav-link" id="resume-btn" href={resume} target="_blank">resume</a>
                         </li>
                     </ul>
                 </div>

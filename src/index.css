@@ -11,6 +11,7 @@
   --nav-grey: #f7f8fa;
   --primary-grey: #ccd1d9;
 
+  --primary-vs-dark: #262a32;
   --primary-light-dark: #1d1d1d;
   --primary-medium-dark: #181818;
   --primary-dark: #000000;
@@ -31,6 +32,7 @@ body {
 /********************************* NAVBAR *********************************/
 nav {
   z-index: 1;
+  background: var(--primary-vs-dark)
 }
 
 /*------------------------ NAV LINKS ------------------------*/
@@ -46,24 +48,45 @@ nav ul li {
 }
 
 .navbar-nav > li > a {
-  color: black !important;
+  color: var(--primary-light-grey) !important;
   margin: 0 0.5rem;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
-  color: var(--primary-color) !important;
+  color: var(--primary-aqua) !important;
 }
 
 .navbar-nav > li > a:hover {
-  color: var(--primary-color) !important;
+  color: var(--primary-aqua) !important;
 }
 
-.resume-btn{
-  border: solid 1px var(--primary-pink);
+#resume-btn{
+  border: solid 1px var(--primary-aqua);
+  color: var(--primary-aqua) !important;
   padding: .4rem .55rem !important;
   border-radius: 4px;
-  /* margin-left: .8rem !important; */
+  display: inline-block;
 }
+
+#resume-btn:hover{
+  border: solid 1px var(--primary-light-dark);
+  color: var(--primary-light-dark) !important;
+  background: var(--primary-aqua);
+  transition: .3s ease-in-out;
+}
+
+@media (max-width: 1090px) {
+  nav ul li {
+    text-align: center !important
+  }
+
+  #resume-btn{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    margin-bottom: .25rem !important;
+  }
+}
+
 
 /********************************* HOME *********************************/
 .home-wrapper {
