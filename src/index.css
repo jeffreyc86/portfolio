@@ -405,9 +405,10 @@ nav ul li {
 
 .experience-wrapper{
   position: relative;
-  padding: 3.125rem 0;
-  padding-bottom: 2rem;
+  padding: 2rem 0;
+  padding-bottom: 1rem;
   overflow: hidden;
+  margin-bottom: 3rem;
 }
 
 .experience h1{
@@ -828,7 +829,8 @@ textarea.form-control {
 .footer{
   background: black;
   color: var(--primary-dark-grey);
-  padding: 3rem;
+  padding: 1.5rem;
+  padding-bottom: .7rem;
 }
 
 .footer p{
@@ -847,19 +849,62 @@ textarea.form-control {
   transition: .3s ease-in-out;
 }
 
-.footer-contact{
-  margin-right: 1rem
-}
-
 .footer-contact-icon{
   margin-right: .25rem;
 }
 
 .copyright {
+  padding-top: .4rem;
   font-size: .6rem;
 }
 
 .footer-icon{
   font-size: 1.5rem;
   margin: 0 .5rem;
+}
+
+@media(max-width: 850px){
+
+  .footer-contact{
+    font-size: .8rem;
+  }
+}
+
+@media(max-width: 620px){
+
+  .footer-contact{
+    font-size: .7rem;
+  }
+
+  .footer-contact-icon{
+    display: none;
+  }
+
+  .copyright {
+    font-size: .5rem;
+  }
+}
+
+@media(max-width: 440px){
+
+  .footer-flex{
+    justify-content: center !important;
+  }
+
+  .footer-col{
+    margin-bottom: .3rem;
+  }
+
+  .footer-contact{
+    font-size: .8rem;
+  }
+
+  .footer-contact-icon{
+    display: unset;
+  }
+
+  .copyright {
+    padding-top: .2rem;
+    font-size: .6rem;
+  }
 }
