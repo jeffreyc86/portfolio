@@ -14,6 +14,15 @@ function Portfolio() {
             <>
                 <img className="portfolio-image-popupbox" src={process.env.PUBLIC_URL + "/assets/alteri.png"} alt="Alteri" />
                 <p className="popup-desc">A web app connecting those in need of basic necessities with donors in their area.</p>
+                <div className="tech-used">
+                    <span>React</span>
+                    <span>Redux</span>
+                    <span>Ruby on Rails</span>
+                    <span>PostgesSQL</span>
+                    <span>WebSockets</span>
+                    <span>GoogleMaps API</span>
+                    <span>CSS</span>
+                </div>
                 <div className="popup-icons">
                     <div className="hyper-link" onClick={() => window.open("https://alteri-client.netlify.app/")}>
                         <div className="popup-links">
@@ -55,6 +64,12 @@ function Portfolio() {
             <>
                 <img className="portfolio-image-popupbox" src={process.env.PUBLIC_URL + "/assets/spreddit.png"} alt="Spreddit" />
                 <p className="popup-desc">A functional Reddit clone to post about pandemic related topics.</p>
+                <div className="tech-used">
+                    <span>React</span>
+                    <span>Ruby on Rails</span>
+                    <span>PostgesSQL</span>
+                    <span>CSS</span>
+                </div>
                 <div className="popup-icons">
                     <div className="hyper-link" onClick={() => window.open("https://spreddit.netlify.app/")}>
                         <div className="popup-links">
@@ -96,7 +111,15 @@ function Portfolio() {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={process.env.PUBLIC_URL + "/assets/youtravel.png"} alt="YouTravel" />
-                <p className="popup-desc">A video platform for travelers to share and discover videos from cities across the world.</p>
+                <p className="popup-desc">A platform for travelers to share and discover videos from cities across the world.</p>
+                <div className="tech-used">
+                    <span>JavaScript</span>
+                    <span>Ruby on Rails</span>
+                    <span>PostgesSQL</span>
+                    <span>Bootstrap</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
                 <div className="popup-icons">
                     <div className="hyper-link" onClick={() => window.open("https://youtravel.netlify.app/")}>
                         <div className="popup-links">
@@ -138,7 +161,14 @@ function Portfolio() {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={process.env.PUBLIC_URL + "/assets/fridge-meals.jpg"} alt="Fridge Meals" />
-                <p className="popup-desc">An app allowing users to discover recipes based on the ingredients they have available at home.</p>
+                <p className="popup-desc">An app where users can discover recipes based on the ingredients they have at home.</p>
+                <div className="tech-used">
+                    <span>Ruby on Rails</span>
+                    <span>SQLite</span>
+                    <span>Spoonacular API</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
                 <div className="popup-icons">
                     <div className="hyper-link" onClick={() => window.open("https://www.loom.com/share/3f686e9cacc942d5926fe29d9e084c66")}>
                         <div className="popup-links">

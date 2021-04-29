@@ -579,7 +579,7 @@ nav ul li {
 }
 
 .popupbox-content{
-  padding: 1rem !important;
+  padding: .6rem 1rem !important;
 }
 
 .portfolio-image-popupbox {
@@ -589,26 +589,39 @@ nav ul li {
   border-radius: .25rem;
 }
 
-.hyper-link {
-  cursor: pointer;
-  color: black;
-  margin: 0 1rem;
-}
-
-.hyper-link:hover{
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
 .popupbox-titleBar span{
   font-weight: 800;
   font-size: 1.5rem;
 }
 
 .popup-desc{
-  font-size: .8rem;
+  font-size: .85rem;
   width: 45rem;
   margin: .5rem 0;
+  margin-bottom: .3rem;
+}
+
+.tech-used{
+  margin-bottom: .3rem;
+  font-size: .7rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.tech-used span{
+  margin: 0 .8rem
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: black;
+  margin: 0 1rem;
+  font-size: .9rem;
+}
+
+.hyper-link:hover{
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  color: var(--primary-color);
 }
 
 .popup-icons {
@@ -620,23 +633,29 @@ nav ul li {
   margin-right: .25rem;
 }
 
-/* WIDTH */
-
-@media(max-width: 1070px){
-
-  .portfolio-image-popupbox{
-    width: 100%;
-  }
-
-  .popup-desc{
-    width: 100%;
-  }
+.popup-links span{
+  line-height: 80%;
 }
 
-@media(max-width: 925px){
+/* WIDTH */
+
+@media(max-width: 1050px){
+
+  .portfolio-image-popupbox{
+    width: 90%;
+  }
 
   .popup-desc{
-    font-size: .7rem;
+    width: 100%;
+    font-size: .72rem;
+  }
+
+  .tech-used{
+    font-size: .58rem;
+  }
+  
+  .tech-used span{
+    margin: 0 .7rem
   }
 }
 
@@ -647,15 +666,24 @@ nav ul li {
   }
 
   .popup-desc{
-    font-size: .5rem;
+    font-size: .6rem;
     width: 100%;
     margin: .25rem 0;
+  }
+
+  .tech-used{
+    font-size: .45rem;
+  }
+  
+  .tech-used span{
+    margin: 0 .25rem
   }
 
   .popup-links{
     font-size: .75rem;
   }
 }
+
 @media(max-width: 465px){
   .popup-links{
     font-size: .5rem;
@@ -664,9 +692,9 @@ nav ul li {
 
 /* HEIGHT */
 
-@media(max-height: 723px){
+@media(max-height: 640px){
   .popupbox-wrapper{
-    width: auto;
+    width: 60%;
   }
 
   .popupbox-content{
@@ -681,6 +709,10 @@ nav ul li {
   .popup-desc {
    width: auto;
   }
+
+  .popup-links{
+    font-size: .6rem;
+  }
 }
 
 @media(max-height: 570px){
@@ -690,12 +722,6 @@ nav ul li {
   }
 }
 
-@media(max-height: 450px){
-
-  .portfolio-image-popupbox{
-    width: 30% !important;;
-  }
-}
 
 
  /********************************* CONTACT *********************************/
