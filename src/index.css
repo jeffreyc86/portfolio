@@ -552,10 +552,37 @@ nav ul li {
 
 .experience h1{
   text-transform: uppercase;
-  color: black;
-  /* font-size: 2.6rem !important; */
+  text-align: center;
+  color: var(--primary-aqua);
+  font-family: 'SF-Pro-Heavy', monospace !important;
+ }
+
+#exp-overlap{
+  margin-left: -411px;
+  color: var(--primary-pink);
 }
 
+@media(min-width: 780px){
+  .experience h1{
+    font-size: 3.2rem
+   }
+  
+  #exp-overlap{
+    margin-left: -526px;
+  }
+  
+ }
+
+ @media(max-width: 480px){
+  .experience h1{
+    font-size: 1.9rem
+  }
+
+  #exp-overlap{
+      margin-left: -311.5px;
+  }
+  
+ }
 .experience-wrapper:before{
   position: absolute;
   content: "";
@@ -649,9 +676,23 @@ nav ul li {
 
  /********************************* PORTFOLIO *********************************/
  .portfolio-wrapper{
-   /* background: var(--primary-light-grey); */
+   position: relative;
    padding: 3rem 0;
+   padding-bottom: 6rem;
  }
+
+ .portfolio-wrapper::before {    
+  content: "";
+  background-image: url(code-background.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.04;
+  z-index: -2;
+}
 
  .popupbox-content{
    text-align: center;
@@ -790,7 +831,7 @@ nav ul li {
 .hyper-link:hover{
   text-decoration: none;
   transition: 0.3s ease-in-out;
-  color: var(--primary-color);
+  color: var(--primary-pink);
 }
 
 .popup-icons {
@@ -997,7 +1038,7 @@ textarea.form-control {
 .footer{
   background: black;
   color: var(--vs-text);
-  font-family: 'Source Code Pro', monospace !important;
+  font-family: 'Source Code Pro', monospace;
   padding: 1.5rem;
   padding-bottom: .7rem;
 }
@@ -1006,10 +1047,15 @@ textarea.form-control {
   margin-bottom: 0;
 }
 
+.footer-contact{
+  font-size: .8rem
+}
+
 .footer a{
   text-decoration: none;
   color: var(--vs-text);
-  cursor: pointer
+  cursor: pointer;
+  font-family: 'SF-Pro';
 }
 
 .footer a:hover{
@@ -1049,16 +1095,18 @@ textarea.form-control {
     font-size: .7rem;
   }
 
-  .footer-contact-icon{
-    display: none;
-  }
-
   .copyright {
     font-size: .5rem;
   }
 }
 
-@media(max-width: 425px){
+@media(max-width: 480px){
+  .footer-contact-icon{
+    display: none;
+  }
+}
+
+@media(max-width: 390px){
 
   .footer-flex{
     justify-content: center !important;

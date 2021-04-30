@@ -5,7 +5,7 @@ function Experience() {
     return (
         <div id="experience" className="experience">
             <div className="d-flex justify-content-center my-4">
-                <h1>Where I've Worked</h1>
+                <h1>Where I've Worked<span id="exp-overlap">Where I've Worked</span></h1>
             </div>
             <div className="container experience-wrapper">
                 <div className="timeline-block timeline-block-left">
