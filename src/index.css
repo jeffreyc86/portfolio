@@ -821,6 +821,12 @@ nav ul li {
   margin: 0 .8rem
 }
 
+.tech-used span::before{
+  content: "ᐅ";
+  margin-right: .2rem;
+  color: var(--primary-aqua);
+}
+
 .hyper-link {
   cursor: pointer;
   color: black;
@@ -883,6 +889,10 @@ nav ul li {
 
   .tech-used{
     font-size: .45rem;
+  }
+
+  .tech-used span::before{
+    margin-right: .1rem;
   }
   
   .tech-used span{
@@ -1060,7 +1070,7 @@ textarea.form-control {
 
 .footer a:hover{
   text-decoration: none;
-  color: var(--primary-aqua);
+  color: var(--primary-pink);
   transition: .3s ease-in-out;
 }
 
