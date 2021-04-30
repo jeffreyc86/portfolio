@@ -36,7 +36,7 @@ function Contact () {
     return (
         <div id="contact" className="contact">
             <div className="text-center">
-                <h1>Contact Me</h1>
+                <h1>Contact Me<span id="contact-overlap">Contact Me</span></h1>
                 <p>Please fill out the form below to get in touch. I look forward to meeting you.</p>
                 <span className="success-message">{successMessage}</span>
             </div>

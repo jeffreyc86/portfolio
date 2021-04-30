@@ -569,8 +569,7 @@ nav ul li {
   
   #exp-overlap{
     margin-left: -526px;
-  }
-  
+  } 
  }
 
  @media(max-width: 480px){
@@ -581,8 +580,8 @@ nav ul li {
   #exp-overlap{
       margin-left: -311.5px;
   }
-  
  }
+
 .experience-wrapper:before{
   position: absolute;
   content: "";
@@ -946,15 +945,57 @@ nav ul li {
 
  /********************************* CONTACT *********************************/
 .contact {
-  background: #393939;
   padding: 3rem 0;
+  position: relative
+}
+
+.contact::before{
+  content: "";
+  z-index: -2;
+  background-color: var(--vs-background);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.1;
 }
 
 .contact h1{
-  color: var(--primary-color);
   padding: 1.3rem 0;
   text-transform: uppercase;
+  text-align: center;
+  color: var(--primary-aqua);
+  font-family: 'SF-Pro-Heavy', monospace !important;
 }
+
+#contact-overlap{
+  margin-left: -256px;
+  color: var(--primary-pink);
+}
+
+@media(min-width: 780px){
+  .contact h1{
+    font-size: 3.2rem
+   }
+  
+  #contact-overlap{
+    margin-left: -328px;
+  }
+  
+ }
+
+ @media(max-width: 480px){
+  .contact h1{
+    font-size: 2.1rem
+  }
+
+  #contact-overlap{
+      margin-left: -215px;
+  }
+  
+ }
 
 .contact p{
   color: var(--primary-light-grey);
