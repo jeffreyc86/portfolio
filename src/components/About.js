@@ -28,7 +28,7 @@ function About () {
                     <p className="about mb-1">
                         Technologies I've been working with recently:
                     </p>
-                    <table class="table mb-0">
+                    <table className="table mb-0">
                         <tbody>
                             <tr>
                                 <td><span className="skill-arrow">ᐅ</span> JavaScript (ES6+)</td>

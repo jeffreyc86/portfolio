@@ -25,7 +25,7 @@ function Home () {
                     Contact Me
                 </Link>
             </div>
-            <section id="section05" class="demo">
+            <section id="scroll" className="demo">
                 <a href="#thanks"><span></span></a>
             </section>
         </div>
