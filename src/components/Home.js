@@ -14,17 +14,20 @@ function Home () {
                     <h1>JEFFREY CHIU</h1>
                     <h1>JEFFREY CHIU</h1>
                 </div>
-            <Typed
-                className="typed-text"
-                strings={["Full-Stack Software Engineer", "Based in NYC", "JavaScript", "React", "Redux", "Ruby on Rails", "HTML", "CSS"]}
-                typeSpeed={40}
-                backSpeed={60}
-                loop
-            />
-            <Link to="contact" smooth={true} offset={-50} className="btn-main-offer">
-                Contact Me
-            </Link>
+                <Typed
+                    className="typed-text"
+                    strings={["Full-Stack Software Engineer", "Based in NYC", "JavaScript", "React", "Redux", "Ruby on Rails", "HTML", "CSS"]}
+                    typeSpeed={40}
+                    backSpeed={60}
+                    loop
+                />
+                <Link to="contact" smooth={true} offset={-50} className="btn-main-offer">
+                    Contact Me
+                </Link>
             </div>
+            <section id="section05" class="demo">
+                <a href="#thanks"><span></span></a>
+            </section>
         </div>
     )
 }
