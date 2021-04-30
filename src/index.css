@@ -63,16 +63,16 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
-  color: var(--primary-color) !important;
+  color: var(--primary-pink) !important;
 }
 
 .navbar-nav > li > a:hover {
-  color: var(--primary-color) !important;
+  color: var(--primary-pink) !important;
 }
 
 #resume-btn{
-  border: solid 1px var(--primary-color);
-  color: var(--primary-color) !important;
+  border: solid 1px var(--primary-pink);
+  color: var(--primary-pink) !important;
   padding: .4rem .55rem !important;
   border-radius: 4px;
   display: inline-block;
@@ -80,8 +80,8 @@ nav ul li {
 
 #resume-btn:hover{
   border: solid 1px #f8f9fa;
-  color: #f8f9fa !important;
-  background: var(--primary-color);
+  color: black !important;
+  background: var(--primary-aqua);
   transition: .3s ease-in-out;
 }
 
@@ -387,6 +387,7 @@ nav ul li {
 /*------------------------ BUTTON ------------------------*/
 .btn-main-offer{
   border: 1px solid; 
+  border-radius: 4px !important;
   font-family: 'Source Code Pro', monospace !important;
   text-transform: uppercase;
   border-radius: 0;
@@ -473,9 +474,9 @@ nav ul li {
 
 .profile-img{
   width: 18rem;
-  padding: 0.3rem;
+  /* padding: 0.3rem; */
   border-radius: 50%;
-  border: 1px solid var(--primary-color)
+  border: 2px solid var(--primary-pink)
 }
 
 .abt-heading{
@@ -657,14 +658,21 @@ nav ul li {
  }
 
  .portfolio-wrapper h1{
-   color: green;
+    color: var(--primary-aqua);
+    font-family: 'SF-Pro-Heavy', monospace !important;
+    margin-bottom: 0 !important;
+ }
+
+ #portfolio-overlap{
+    margin-left: -353px;
+    color: var(--primary-pink);
  }
 
  .portfolio-image{
-   width: 15rem;
-   height: 8.7rem;
-   border: 1px solid var(--primary-color);
-   padding: 0 0.5rem;
+   width: 14.5rem;
+   height: 8.8rem;
+   border: 1px solid var(--primary-pink);
+   padding: 0;
  }
 
  .portfolio-image-box{
@@ -676,8 +684,8 @@ nav ul li {
    position: absolute;
    opacity: 0;
    background: black;
-   width: 15rem;
-   height: 8.7rem;
+   width: 14.5rem;
+   height: 8.8rem;
    top: 0;
    border: 1px solid var(--primary-color);
    cursor: pointer;
@@ -693,7 +701,7 @@ nav ul li {
   opacity: 0;
   margin-left: -8rem;
   margin-top: 3.6rem;
-  color: var(--primary-color);
+  color: var(--primary-pink);
   font-size: 1.5rem;
  }
 
@@ -701,6 +709,28 @@ nav ul li {
   opacity: 70%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+ }
+
+ @media(min-width: 780px){
+  .portfolio-wrapper h1{
+    font-size: 3.2rem
+  }
+
+  #portfolio-overlap{
+      margin-left: -452px;
+  }
+  
+ }
+
+ @media(max-width: 480px){
+  .portfolio-wrapper h1{
+    font-size: 1.9rem
+  }
+
+  #portfolio-overlap{
+      margin-left: -268px;
+  }
+  
  }
 
 /*------------------------ POPUP ------------------------*/
@@ -966,7 +996,7 @@ textarea.form-control {
  /********************************* FOOTER *********************************/
 .footer{
   background: black;
-  color: var(--primary-dark-grey);
+  color: var(--vs-text);
   font-family: 'Source Code Pro', monospace !important;
   padding: 1.5rem;
   padding-bottom: .7rem;
@@ -978,13 +1008,13 @@ textarea.form-control {
 
 .footer a{
   text-decoration: none;
-  color: var(--primary-dark-grey);
+  color: var(--vs-text);
   cursor: pointer
 }
 
 .footer a:hover{
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--primary-aqua);
   transition: .3s ease-in-out;
 }
 

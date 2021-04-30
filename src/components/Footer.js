@@ -29,10 +29,9 @@ function Footer() {
                    
                 </div>
             </div>
-                        <div className="copyright">
-                            <p className="text-center">COPYRIGHT &copy; {new Date().getFullYear()} JEFFREY CHIU | ALL RIGHTS RESERVED</p>
-                        </div>
-            
+                <div className="copyright">
+                    <p className="text-center">COPYRIGHT &copy; {new Date().getFullYear()} JEFFREY CHIU | ALL RIGHTS RESERVED</p>
+                </div>
         </div>
     )
 }

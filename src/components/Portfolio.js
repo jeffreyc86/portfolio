@@ -201,7 +201,7 @@ function Portfolio() {
     return (
         <div id="portfolio" className="portfolio-wrapper">
             <div className="container">
-                <h1 className="text-uppercase text-center py-5">Portfolio</h1>
+                <h1 className="text-uppercase text-center py-5">Things I've Built<span id="portfolio-overlap">Things I've Built</span></h1>
                 <div className="image-box-wrapper row justify-content-center">
                     <div className="portfolio-image-box" onClick={openPopupAlteri}>
                         <img className="portfolio-image" src={process.env.PUBLIC_URL + "/assets/alteri.png"} alt="Alteri" />

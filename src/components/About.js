@@ -6,7 +6,7 @@ function About () {
         <div id="about" className="container py-5">
             <div className="row">
                 <div className="col-lg-6 col-xm-12">
-                    <div className="photo-wrap mb-5">
+                    <div className="photo-wrap mb-4">
 
                         <img className="profile-img" src={process.env.PUBLIC_URL + "/assets/headshot.jpg"} alt="profile pic" />
                     </div>
