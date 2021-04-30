@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro&display=swap');
 
-/* @font-face {
-  font-family: "neon";
-  src: local("neon"), url(./fonts/Neon80s.ttf) format("truetype");
-} */
+@font-face {
+  font-family: "SF-Pro";
+  src: local("neon"), url(./fonts/SF-Pro.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "SF-Pro-Heavy";
+  src: local("neon"), url(./fonts/SF-Pro-Heavy.otf) format("opentype");
+}
 
 
 :root {
@@ -11,7 +16,9 @@
   --nav-grey: #f7f8fa;
   --primary-grey: #ccd1d9;
 
-  --primary-vs-dark: #262a32;
+  --vs-dark: #21252b;
+  --vs-text: #abb2bf;
+  --vs-background: #282c34;
   --primary-light-dark: #1d1d1d;
   --primary-medium-dark: #181818;
   --primary-dark: #000000;
@@ -22,8 +29,9 @@
   --primary-aqua: #2efcd8;
   --primary-pink: #fc185a;
 }
+
 body {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'SF-Pro', monospace;
 }
 
 .App {
@@ -33,6 +41,7 @@ body {
 /********************************* NAVBAR *********************************/
 nav {
   z-index: 1;
+  font-family: 'Source Code Pro', monospace !important;
   /* background: var(--primary-light-dark) */
 }
 
@@ -109,14 +118,14 @@ nav ul li {
   
 .home-wrapper::after{
   content: "";
-  background-color: black;
+  background-color: var(--primary-light-dark);
   background-size: cover;
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.15;
+  opacity: 0.2;
 }
 
 .main-info{
@@ -141,6 +150,7 @@ nav ul li {
 }
 
 .glitch-container h1 {
+  font-family: 'Source Code Pro', monospace !important;
   color: black;
   font-size: 5em; 
   letter-spacing: 0.0375rem;
@@ -353,6 +363,7 @@ nav ul li {
 
 /*------------------------ TYPED TEXT ------------------------*/
 .typed-text{
+  font-family: 'Roboto Mono', monospace !important;
   font-size: 1rem;
   color: black;
   margin-bottom: 1rem;
@@ -368,7 +379,7 @@ nav ul li {
 
 @media screen and (max-width: 360px) {
   .typed-text{
-    font-size: .25rem;
+    font-size: .5rem;
     color: black;
   }
 }
@@ -376,6 +387,7 @@ nav ul li {
 /*------------------------ BUTTON ------------------------*/
 .btn-main-offer{
   border: 1px solid; 
+  font-family: 'Source Code Pro', monospace !important;
   text-transform: uppercase;
   border-radius: 0;
   padding: .5rem;
@@ -467,13 +479,24 @@ nav ul li {
 }
 
 .abt-heading{
-  color: var(--primary-color);
+  color: var(--primary-aqua);
+  font-family: 'SF-Pro-Heavy', monospace !important;
   text-transform: uppercase;
-  font-weight: 800;
+}
+
+.overlap{
+  margin-left: -205px;
+  color: var(--primary-pink);
 }
 
 .about{
   font-size: .8rem;
+}
+
+@media (max-width: 1090px) {
+  .abt-heading{
+    text-align: center;
+  }
 }
 
 @media(max-width: 468px) {
@@ -487,6 +510,10 @@ nav ul li {
     font-size: 2rem
   }
 
+  .overlap{
+    margin-left: -164px;
+  }
+
   .about{
     font-size: .7rem;
   }
@@ -496,12 +523,17 @@ nav ul li {
 .table{
   width: 80% !important;
   margin: 0 auto;
+  font-family: 'Roboto Mono', monospace !important;
 }
 
 .table td{
   border: none !important;
   padding: 0 !important;
   font-size: 0.7rem !important;
+}
+
+.skill-arrow{
+  color: var(--primary-pink)
 }
 
 /********************************* EXPERIENCE *********************************/
@@ -935,6 +967,7 @@ textarea.form-control {
 .footer{
   background: black;
   color: var(--primary-dark-grey);
+  font-family: 'Source Code Pro', monospace !important;
   padding: 1.5rem;
   padding-bottom: .7rem;
 }

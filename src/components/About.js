@@ -12,7 +12,7 @@ function About () {
                     </div>
                 </div>
                 <div className="col-lg-6 col-xm-12">
-                    <h1 className="abt-heading">About Me</h1>
+                    <h1 className="abt-heading">About Me<span className="overlap">About Me</span></h1>
                     <p className="about mb-3">
                         Hello! I'm Jeffrey. Most people call me Jeff. I'm a native New Yorker still based in the city.
                     </p>
