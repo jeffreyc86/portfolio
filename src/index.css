@@ -553,7 +553,7 @@ nav ul li {
 }
 
 .skill-arrow{
-  color: var(--primary-navy)
+  color: var(--nav-orange)
 }
 
 /********************************* EXPERIENCE *********************************/
@@ -730,7 +730,7 @@ nav ul li {
  .portfolio-image{
    width: 14.5rem;
    height: 8.8rem;
-   border: 1px solid var(--primary-navy);
+   border: 1px solid var(--nav-orange);
    padding: 0;
  }
 
@@ -746,7 +746,7 @@ nav ul li {
    width: 14.5rem;
    height: 8.8rem;
    top: 0;
-   border: 1px solid var(--primary-color);
+   border: 1px solid var(--primary-aqua);
    cursor: pointer;
  }
 
@@ -755,12 +755,16 @@ nav ul li {
    transition: 0.3s ease-in-out;
  }
 
+ .portfolio-image-box:hover .portfolio-image {
+  border: 1px solid var(--primary-aqua);
+ }
+
  .portfolio-icon {
   position: absolute;
   opacity: 0;
   margin-left: -8rem;
   margin-top: 3.6rem;
-  color: var(--primary-navy);
+  color: var(--primary-aqua);
   font-size: 1.5rem;
  }
 
@@ -842,7 +846,7 @@ nav ul li {
 .tech-used span::before{
   content: "ᐅ";
   margin-right: .2rem;
-  color: var(--primary-aqua);
+  color: var(--nav-orange);
 }
 
 .hyper-link {
@@ -855,7 +859,7 @@ nav ul li {
 .hyper-link:hover{
   text-decoration: none;
   transition: 0.3s ease-in-out;
-  color: var(--primary-navy);
+  color: var(--nav-orange);
 }
 
 .popup-icons {
@@ -1047,7 +1051,7 @@ nav ul li {
 }
 
 .contact .container{
-  padding: 3.55rem 0 4rem;
+  padding: 2.45rem 0 4rem;
 }
 
 .contact-input-area{
@@ -1065,7 +1069,7 @@ nav ul li {
 }
 
 .contact-btn {
-  margin: 1re 0 0 0;
+  margin: 1rem 0 0 0;
   width: 100%;
   background: none;
 
@@ -1073,7 +1077,7 @@ nav ul li {
 
 .line{
   position: relative;
-  top: -0.8rem;
+  top: -0.75rem;
   width: 0;
   height: .125rem;
   background: var(--primary-color);
@@ -1120,8 +1124,8 @@ textarea.form-control {
 
  /********************************* FOOTER *********************************/
 .footer{
-  background: black;
-  color: var(--vs-text);
+  background: #03182f;
+  color: white;
   font-family: 'Source Code Pro', monospace;
   padding: 1.5rem;
   padding-bottom: .7rem;
@@ -1137,14 +1141,14 @@ textarea.form-control {
 
 .footer a{
   text-decoration: none;
-  color: var(--vs-text);
+  color: white;
   cursor: pointer;
   font-family: 'SF-Pro';
 }
 
 .footer a:hover{
   text-decoration: none;
-  color: var(--primary-navy);
+  color: var(--primary-aqua);
   transition: .3s ease-in-out;
 }
 

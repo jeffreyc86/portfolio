@@ -45,7 +45,7 @@ function Contact () {
                     <div className="row contact-input-area">
                         <div className="col-md-6 col-xs-12">
                             {/* NAME INPUT */}
-                            <div className="text-cent">
+                            <div className="text-center">
                                 <input 
                                     type="text"
                                     className="form-control" 
@@ -85,10 +85,7 @@ function Contact () {
                                     type="email"
                                     {...register("email", {
                                         required: "Please provide your email",
-                                        pattern: {
-                                            value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                                            message: "Invalid email format"
-                                        }
+                                        pattern: { value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i, message: "Invalid email format" }
                                       })
                                     }
                                 />
