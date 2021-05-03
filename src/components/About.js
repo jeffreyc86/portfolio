@@ -1,4 +1,6 @@
 import React from "react"
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome' 
+import { faGithub, faLinkedin, faMedium } from "@fortawesome/free-brands-svg-icons"
 
 function About () {
 
@@ -6,9 +8,14 @@ function About () {
         <div id="about" className="container py-5">
             <div className="row">
                 <div className="col-lg-6 col-xm-12">
-                    <div className="photo-wrap mb-4">
+                    <div className="photo-wrap mb-2">
 
                         <img className="profile-img" src={process.env.PUBLIC_URL + "/assets/headshot.jpg"} alt="profile pic" />
+                    </div>
+                    <div className="footer-links text-center mb-4">
+                        <a className="footer-icon abt-icon" href="https://www.linkedin.com/in/jchiu86" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                        <a className="footer-icon abt-icon" href="https://github.com/jeffreyc86" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+                        <a className="footer-icon abt-icon" href="https://jeffrey-chiu.medium.com" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faMedium} /></a>
                     </div>
                 </div>
                 <div className="col-lg-6 col-xm-12">

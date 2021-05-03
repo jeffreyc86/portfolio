@@ -26,8 +26,8 @@
   --primary-light-grey: #909096;
   --primary-medium-grey: #757575;
   --primary-dark-grey: #515152;
-  --primary-aqua: #2efcd8;
-  --primary-pink: #fc185a;
+  --primary-aqua: #3feee6;
+  --primary-pink: #fc4445;
 }
 
 body {
@@ -492,6 +492,19 @@ nav ul li {
 
 .about{
   font-size: .8rem;
+}
+
+.abt-icon{
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+  cursor: pointer;
+  font-family: 'SF-Pro';
+}
+
+.abt-icon:hover{
+  text-decoration: none;
+  color: #157ffb;
+  transition: .3s ease-in-out;
 }
 
 @media (max-width: 1090px) {
@@ -964,8 +977,7 @@ nav ul li {
 }
 
 .contact h1{
-  padding: 0;
-  padding-bottom: 1rem;
+  padding: 1.3rem 0;
   text-transform: uppercase;
   text-align: center;
   color: var(--primary-aqua);
@@ -1029,7 +1041,7 @@ nav ul li {
 }
 
 .contact .container{
-  padding: 1.5rem 0 4rem;
+  padding: 3.55rem 0 4rem;
 }
 
 .contact-input-area{
@@ -1090,8 +1102,9 @@ textarea.form-control {
   .contact {
     overflow-x: hidden;
   }
+
   .contact .container{
-    padding: 0 1rem;
+    padding: 0rem 1rem;
   }
 
   .contact p{
