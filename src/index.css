@@ -13,21 +13,27 @@
 
 :root {
   --primary-color: #D21f3c;
-  --nav-grey: #f7f8fa;
   --primary-grey: #ccd1d9;
 
   --vs-dark: #21252b;
   --vs-text: #abb2bf;
+  /* --primary-vs-grey: #64676f;  */
   --vs-background: #282c34;
+
   --primary-light-dark: #1d1d1d;
-  --primary-medium-dark: #181818;
-  --primary-dark: #000000;
-  --primary-vs-grey: #64676f; 
-  --primary-light-grey: #909096;
-  --primary-medium-grey: #757575;
-  --primary-dark-grey: #515152;
-  --primary-aqua: #2efcd8;
-  --primary-pink: #fc185a;
+
+
+
+  --primary-light-grey: #909096; /* inputs */
+  --primary-medium-grey: #757575; /* scroll indicator */
+  --primary-dark-grey: #515152; /* inputs & timeline */
+
+  /* color scheme */
+  --nav-orange: #f42e00;
+  --primary-light-blue: #c8eef5; 
+  --primary-orange: #dd6235;
+  --primary-aqua: #99fffe;
+  --primary-navy: #042549;
 }
 
 body {
@@ -58,21 +64,21 @@ nav ul li {
 }
 
 .navbar-nav > li > a {
-  color: black !important;
+  color: var(--primary-navy) !important;
   margin: 0 0.5rem;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
-  color: var(--primary-pink) !important;
+  color: var(--nav-orange) !important;
 }
 
 .navbar-nav > li > a:hover {
-  color: var(--primary-pink) !important;
+  color: var(--nav-orange) !important;
 }
 
 #resume-btn{
-  border: solid 1px var(--primary-pink);
-  color: var(--primary-pink) !important;
+  border: solid 1px var(--primary-navy);
+  color: var(--primary-navy) !important;
   padding: .4rem .55rem !important;
   border-radius: 4px;
   display: inline-block;
@@ -396,8 +402,9 @@ nav ul li {
 }
 
 .btn-main-offer:hover{
+  border: 1px solid var(--nav-orange); 
   text-decoration: none;
-  background-color: var(--primary-color);
+  background-color: var(--nav-orange);
   color: white;
   transition: .2s ease-in-out;
 }
@@ -476,7 +483,7 @@ nav ul li {
   width: 18rem;
   /* padding: 0.3rem; */
   border-radius: 50%;
-  border: 2px solid var(--primary-pink)
+  border: 2px solid var(--primary-navy)
 }
 
 .abt-heading{
@@ -487,7 +494,7 @@ nav ul li {
 
 .overlap{
   margin-left: -205px;
-  color: var(--primary-pink);
+  color: var(--primary-navy);
 }
 
 .about{
@@ -547,7 +554,7 @@ nav ul li {
 }
 
 .skill-arrow{
-  color: var(--primary-pink)
+  color: var(--primary-navy)
 }
 
 /********************************* EXPERIENCE *********************************/
@@ -572,7 +579,7 @@ nav ul li {
 
 #exp-overlap{
   margin-left: -411px;
-  color: var(--primary-pink);
+  color: var(--primary-navy);
 }
 
 @media(min-width: 780px){
@@ -718,13 +725,13 @@ nav ul li {
 
  #portfolio-overlap{
     margin-left: -353px;
-    color: var(--primary-pink);
+    color: var(--primary-navy);
  }
 
  .portfolio-image{
    width: 14.5rem;
    height: 8.8rem;
-   border: 1px solid var(--primary-pink);
+   border: 1px solid var(--primary-navy);
    padding: 0;
  }
 
@@ -754,7 +761,7 @@ nav ul li {
   opacity: 0;
   margin-left: -8rem;
   margin-top: 3.6rem;
-  color: var(--primary-pink);
+  color: var(--primary-navy);
   font-size: 1.5rem;
  }
 
@@ -849,7 +856,7 @@ nav ul li {
 .hyper-link:hover{
   text-decoration: none;
   transition: 0.3s ease-in-out;
-  color: var(--primary-pink);
+  color: var(--primary-navy);
 }
 
 .popup-icons {
@@ -986,7 +993,7 @@ nav ul li {
 
 #contact-overlap{
   margin-left: -256px;
-  color: var(--primary-pink);
+  color: var(--primary-navy);
 }
 
 @media(max-width: 768px){
@@ -1138,7 +1145,7 @@ textarea.form-control {
 
 .footer a:hover{
   text-decoration: none;
-  color: var(--primary-pink);
+  color: var(--primary-navy);
   transition: .3s ease-in-out;
 }
 
