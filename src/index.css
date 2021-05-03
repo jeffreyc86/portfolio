@@ -86,7 +86,6 @@ nav ul li {
 
 #resume-btn:hover{
   border: solid 1px #f8f9fa;
-  color: black !important;
   background: var(--primary-aqua);
   transition: .3s ease-in-out;
 }
