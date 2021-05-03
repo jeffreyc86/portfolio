@@ -945,7 +945,8 @@ nav ul li {
 
  /********************************* CONTACT *********************************/
 .contact {
-  padding: 3rem 0;
+  padding: 0;
+  padding-top: 3rem;
   position: relative
 }
 
@@ -963,7 +964,8 @@ nav ul li {
 }
 
 .contact h1{
-  padding: 1.3rem 0;
+  padding: 0;
+  padding-bottom: 1rem;
   text-transform: uppercase;
   text-align: center;
   color: var(--primary-aqua);
@@ -973,6 +975,14 @@ nav ul li {
 #contact-overlap{
   margin-left: -256px;
   color: var(--primary-pink);
+}
+
+@media(max-width: 768px){
+
+  .contact{
+    padding-bottom: 3rem;
+  }
+
 }
 
 @media(min-width: 780px){
@@ -1019,7 +1029,11 @@ nav ul li {
 }
 
 .contact .container{
-  padding: 4rem 0;
+  padding: 1.5rem 0 4rem;
+}
+
+.contact-input-area{
+  justify-content: center;
 }
 
 .contact input:focus, .contact textarea:focus{
@@ -1138,6 +1152,10 @@ textarea.form-control {
   .footer-contact{
     font-size: .8rem;
   }
+}
+
+@media(max-width: 768px){
+  padding-top: 1rem;
 }
 
 @media(max-width: 620px){

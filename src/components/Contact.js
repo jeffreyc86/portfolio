@@ -42,7 +42,7 @@ function Contact () {
             </div>
             <div className="container">
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    <div className="row">
+                    <div className="row contact-input-area">
                         <div className="col-md-6 col-xs-12">
                             {/* NAME INPUT */}
                             <div className="text-cent">
@@ -129,11 +129,11 @@ function Contact () {
                                     }
                                 />
                                 <div className="line"></div>
+                            </div>
                                 <span className="error-message">
                                     {errors.message && errors.message.message}
                                 </span>
-                            </div>
-                            <button className="btn-main-offer contact-btn">Contact Me</button>
+                                <button className="btn-main-offer contact-btn">Contact Me</button>
                         </div>
                     </div>
                 </form>
