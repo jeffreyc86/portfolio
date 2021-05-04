@@ -47,7 +47,7 @@ function Contact () {
         <div id="contact" className="contact">
             <div className="text-center">
                 <h1>Contact Me<span id="contact-overlap">Contact Me</span></h1>
-                <p>Please fill out the form below to get in touch. I look forward to meeting you.</p>
+                <p>To get in touch, please fill out the form below. I look forward to meeting you.</p>
                 <span className={visible ? "success-message remove-msg" : "success-message"}>{successMessage}</span>
             </div>
             <div className="container">
