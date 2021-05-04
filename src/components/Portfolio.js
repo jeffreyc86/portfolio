@@ -26,19 +26,19 @@ function Portfolio() {
                 <div className="popup-icons">
                     <div className="hyper-link" onClick={() => window.open("https://alteri-client.netlify.app/")}>
                         <div className="popup-links">
-                            <FontAwesomeIcon className="popup-icon" icon={faGlobe} style={{color: "black"}}/>
+                            <FontAwesomeIcon className="popup-icon" icon={faGlobe} />
                             Live Link
                         </div>
                     </div>
                     <div className="hyper-link" onClick={() => window.open("https://www.loom.com/share/471914886e254936afc0976c14b0b3c2")}>
                         <div className="popup-links">
-                            <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} style={{color: "black"}}/>
+                            <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} />
                             Watch Demo
                         </div>
                     </div>
                     <div className="hyper-link" onClick={() => window.open("https://github.com/jeffreyc86/alteri")}>
                         <div className="popup-links">
-                            <FontAwesomeIcon className="popup-icon" icon={faGithub} style={{color: "black"}}/>
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
                             GitHub
                         </div>
                     </div>
@@ -73,19 +73,19 @@ function Portfolio() {
                 <div className="popup-icons">
                     <div className="hyper-link" onClick={() => window.open("https://spreddit.netlify.app/")}>
                         <div className="popup-links">
-                            <FontAwesomeIcon className="popup-icon" icon={faGlobe} style={{color: "black"}}/>
+                            <FontAwesomeIcon className="popup-icon" icon={faGlobe} />
                             Live Link
                         </div>
                     </div>
                     <div className="hyper-link" onClick={() => window.open("https://www.loom.com/share/ee4777543eb6430098f9f0990072d761")}>
                         <div className="popup-links">
-                            <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} style={{color: "black"}}/>
+                            <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} />
                             Watch Demo
                         </div>
                     </div>
                     <div className="hyper-link" onClick={() => window.open("https://github.com/jeffreyc86/spreddit")}>
                         <div className="popup-links">
-                            <FontAwesomeIcon className="popup-icon" icon={faGithub} style={{color: "black"}}/>
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
                             GitHub
                         </div>
                     </div>
@@ -123,19 +123,19 @@ function Portfolio() {
                 <div className="popup-icons">
                     <div className="hyper-link" onClick={() => window.open("https://youtravel.netlify.app/")}>
                         <div className="popup-links">
-                            <FontAwesomeIcon className="popup-icon" icon={faGlobe} style={{color: "black"}}/>
+                            <FontAwesomeIcon className="popup-icon" icon={faGlobe} />
                             Live Link
                         </div>
                     </div>
                     <div className="hyper-link" onClick={() => window.open("https://www.loom.com/share/7fd0bb35571a4eb8bfdef9d2c4ea1c3e")}>
                         <div className="popup-links">
-                            <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} style={{color: "black"}}/>
+                            <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} />
                             Watch Demo
                         </div>
                     </div>
                     <div className="hyper-link" onClick={() => window.open("https://github.com/jeffreyc86/youtravel")}>
                         <div className="popup-links">
-                            <FontAwesomeIcon className="popup-icon" icon={faGithub} style={{color: "black"}}/>
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
                             GitHub
                         </div>
                     </div>
@@ -172,13 +172,13 @@ function Portfolio() {
                 <div className="popup-icons">
                     <div className="hyper-link" onClick={() => window.open("https://www.loom.com/share/3f686e9cacc942d5926fe29d9e084c66")}>
                         <div className="popup-links">
-                            <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} style={{color: "black"}}/>
+                            <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} />
                             Watch Demo
                         </div>
                     </div>
                     <div className="hyper-link" onClick={() => window.open("https://github.com/jeffreyc86/fridge-meals")}>
                         <div className="popup-links">
-                            <FontAwesomeIcon className="popup-icon" icon={faGithub} style={{color: "black"}}/>
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
                             GitHub
                         </div>
                     </div>
