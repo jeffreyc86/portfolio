@@ -774,7 +774,7 @@ nav ul li {
  }
 
  .portfolio-image-box:hover .overflow {
-   opacity: 60%;
+   opacity: .6;
    transition: 0.3s ease-in-out;
  }
 
@@ -792,7 +792,7 @@ nav ul li {
  }
 
  .portfolio-image-box:hover .portfolio-icon{
-  opacity: 70%;
+  opacity: .7;
   transition: 0.3s ease-in-out;
   cursor: pointer;
  }
