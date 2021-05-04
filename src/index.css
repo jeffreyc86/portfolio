@@ -637,7 +637,7 @@ nav ul li {
 .timeline-content h5{
   margin-top: 0.3125rem;
   color: var(--primary-navy);
-  font-weight: 600;
+  font-weight: bold;
   font-size: 1.3rem;
   margin-bottom: .1rem;
 }
@@ -647,7 +647,7 @@ nav ul li {
   margin-top: .3rem;
   line-height: 1 !important;
   color: var(--primary-orange);
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .employer a{
@@ -1140,7 +1140,7 @@ textarea.form-control {
 }
 
 .success-message {
-  font-weight: 600;
+  font-weight: bold;
   color: green;
 }
 
@@ -1155,12 +1155,16 @@ textarea.form-control {
   }
 
   .contact .container{
-    padding: 0rem 1rem;
+    padding: 1rem;
   }
 
   .contact p{
     padding: 0 .4rem;
     margin-bottom: 2rem;
+    font-size: 1rem
+  }
+
+  .success-message {
     font-size: 1rem
   }
 }
@@ -1169,6 +1173,10 @@ textarea.form-control {
   .contact p{
     font-size: .9rem;
     padding: 0 .5rem
+  }
+
+  .success-message {
+    font-size: .8rem
   }
 }
 
