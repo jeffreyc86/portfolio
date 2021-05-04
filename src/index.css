@@ -13,14 +13,8 @@
 
 :root {
   --primary-grey: #ccd1d9;
-
-  --vs-text: #abb2bf;
-  /* --primary-vs-grey: #64676f;  */
-  /* --vs-background: #282c34; */
-
   --primary-light-dark: #1d1d1d;
 
-  --primary-light-grey: #909096; /* inputs */
   --primary-medium-grey: #757575; /* scroll indicator */
   --primary-dark-grey: #515152; /* inputs & timeline */
   
@@ -64,10 +58,6 @@ nav ul li {
 .navbar-nav > li > a {
   color: var(--primary-navy) !important;
   margin: 0 0.5rem;
-}
-
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
-  color: var(--primary-orange) !important;
 }
 
 .navbar-nav > li > a:hover {
