@@ -30,6 +30,9 @@
   --primary-light-blue: #c8eef5; 
   --primary-aqua: #99fffe;
   --primary-navy: #042549;
+
+  /* contact */
+  --primary-contact-text: #606064;
 }
 
 body {
@@ -1032,7 +1035,7 @@ nav ul li {
  }
 
 .contact p{
-  color: var(--primary-light-grey);
+  color: #424245;
   font-size: 1.2rem;
 }
 
@@ -1043,13 +1046,17 @@ nav ul li {
   background: none;
   resize: none;
   border: 0;
-  border-bottom: .125rem solid var(--primary-navy);
+  border-bottom: .125rem solid #a7a7af;
   border-radius: 0;
-  color: var(--primary-light-grey);
+  color: var(--primary-navy);
   outline: 0 !important; 
   box-shadow: none !important;
   margin-bottom: 1rem;
   padding-left: 0 !important;
+}
+
+.contact input::placeholder, .contact textarea::placeholder{
+  color: #a7a7af;
 }
 
 .contact .container{
@@ -1062,7 +1069,11 @@ nav ul li {
 
 .contact input:focus, .contact textarea:focus{
   background: transparent;
-  color: var(--primary-color);
+  color: var(--primary-navy);
+  border-bottom: .125rem solid #a7a7af;
+}
+
+.contact input:not(:placeholder-shown), .contact textarea:not(:placeholder-shown){
   border-bottom: .125rem solid var(--primary-navy);
 }
 
@@ -1082,7 +1093,7 @@ nav ul li {
   top: -0.75rem;
   width: 0;
   height: .125rem;
-  background: var(--primary-orange);
+  background: var(--primary-navy);
   display: inline-block;
 }
 
@@ -1099,15 +1110,25 @@ textarea.form-control {
   margin: -0.3rem 0;
 }
 
+.error-message:empty{
+  padding: 0
+}
+
 .error-message {
   color: white;
-  background: red;
+  background: var(--primary-orange);
   text-align: left;
+  padding: 0 .2rem;
 }
 
 .success-message {
   font-weight: 900;
   color: green;
+}
+
+.remove-msg{
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 4s linear
 }
 
 @media(max-width: 768px){
@@ -1159,7 +1180,7 @@ textarea.form-control {
   background: currentColor;
   transform-origin: 100% 50%;
   transform: scale3d(0, 1.2, 1);
-  transition: transform 0.3s;
+  transition: transform 0.4s;
 }
 
 .footer a:hover::before {

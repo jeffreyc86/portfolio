@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form"
 
 function Contact () {
     const [successMessage, setSuccessMessage] = useState("")
+    const [visible, setVisible] = useState(false)
     const { register, handleSubmit, formState: { errors } } = useForm()
 
     const serviceID = "service_ID"
@@ -25,12 +26,21 @@ function Contact () {
         )
         r.target.reset()
     }
+
+    const successfulSend = () => {
+        setSuccessMessage("Form sent successfully! I'll contact you as soon as possible.")
+        setVisible(true)
+
+        setTimeout(()=>{
+            setSuccessMessage("")
+            setVisible(false)
+        }, 4000)
+    }
     
     const sendEmail = (serviceID, templateID, variables, userID) => {
         emailjs.send(serviceID, templateID, variables, userID)
-            .then(() => {
-                setSuccessMessage("Form sent successfully! I'll contact you as soon as possible.")
-            }).catch(err => console.error(`Something went wrong ${err}`))
+            .then(successfulSend)
+            .catch(err => console.error(`Something went wrong ${err}`))
     }
 
     return (
@@ -38,7 +48,7 @@ function Contact () {
             <div className="text-center">
                 <h1>Contact Me<span id="contact-overlap">Contact Me</span></h1>
                 <p>Please fill out the form below to get in touch. I look forward to meeting you.</p>
-                <span className="success-message">{successMessage}</span>
+                <span className={visible ? "success-message remove-msg" : "success-message"}>{successMessage}</span>
             </div>
             <div className="container">
                 <form onSubmit={handleSubmit(onSubmit)}>
