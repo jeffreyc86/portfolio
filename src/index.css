@@ -637,7 +637,7 @@ nav ul li {
 .timeline-content h5{
   margin-top: 0.3125rem;
   color: var(--primary-navy);
-  font-weight: 900;
+  font-weight: 600;
   font-size: 1.3rem;
   margin-bottom: .1rem;
 }
@@ -647,7 +647,7 @@ nav ul li {
   margin-top: .3rem;
   line-height: 1 !important;
   color: var(--primary-orange);
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .employer a{
@@ -1140,7 +1140,7 @@ textarea.form-control {
 }
 
 .success-message {
-  font-weight: 900;
+  font-weight: 600;
   color: green;
 }
 
