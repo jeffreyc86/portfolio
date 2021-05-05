@@ -490,7 +490,7 @@ nav ul li {
 }
 
 .overlap{
-  margin-left: -205px;
+  margin-left: -204px;
   color: var(--primary-navy);
 }
 
@@ -529,7 +529,7 @@ nav ul li {
   }
 
   .overlap{
-    margin-left: -164px;
+    margin-left: -163px;
   }
 
   .about{
@@ -1068,7 +1068,7 @@ nav ul li {
   }
 
   #contact-overlap{
-      margin-left: -215px;
+      margin-left: -215.3px;
   }
   
  }
