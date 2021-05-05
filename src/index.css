@@ -657,7 +657,7 @@ nav ul li {
 .timeline-content h5{
   margin-top: 0.3125rem;
   color: var(--primary-navy);
-  font-weight: 503;
+  font-weight: 580;
   font-size: 1.3rem;
   margin-bottom: .1rem;
 }
@@ -667,7 +667,7 @@ nav ul li {
   margin-top: .3rem;
   line-height: 1 !important;
   color: var(--primary-orange);
-  font-weight: 502;
+  font-weight: 570;
 }
 
 .employer a{
@@ -866,7 +866,7 @@ nav ul li {
 }
 
 .popupbox-titleBar span{
-  font-weight: 502;
+  font-weight: 580;
   font-size: 1.5rem;
 }
 
@@ -1161,7 +1161,7 @@ textarea.form-control {
 }
 
 .success-message {
-  font-weight: 502;
+  font-weight: 570;
   color: green;
 }
 
