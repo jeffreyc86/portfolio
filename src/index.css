@@ -599,6 +599,17 @@ nav ul li {
   }
  }
 
+ @media(max-width: 360px){
+  .experience h1{
+    font-size: 1.7rem
+  }
+
+  #exp-overlap{
+      margin-left: -279px;
+  }
+ }
+
+
 .experience-wrapper:before{
   position: absolute;
   content: "";
@@ -825,6 +836,17 @@ nav ul li {
 
   #portfolio-overlap{
       margin-left: -268px;
+  }
+  
+ }
+
+ @media(max-width: 330px){
+  .portfolio-wrapper h1{
+    font-size: 1.7rem
+  }
+
+  #portfolio-overlap{
+      margin-left: -240.5px;
   }
   
  }
