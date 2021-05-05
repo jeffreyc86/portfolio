@@ -591,34 +591,23 @@ nav ul li {
 
  @media(max-width: 480px){
   .experience h1{
-    font-size: 1.9rem
+    font-size: 1.8rem
   }
 
   #exp-overlap{
-      margin-left: -311.5px;
+      margin-left: -296px;
   }
  }
 
  @media(max-width: 360px){
   .experience h1{
-    font-size: 1.7rem
+    font-size: 1.5rem
   }
 
   #exp-overlap{
-      margin-left: -279px;
+      margin-left: -246px;
   }
  }
-
- @media(max-width: 325px){
-  .experience h1{
-    font-size: 1.4rem
-  }
-
-  #exp-overlap{
-      margin-left: -229.5px;
-  }
- }
-
 
 .experience-wrapper:before{
   position: absolute;
@@ -841,25 +830,15 @@ nav ul li {
 
  @media(max-width: 480px){
   .portfolio-wrapper h1{
-    font-size: 1.9rem
+    font-size: 1.8rem
   }
 
   #portfolio-overlap{
-      margin-left: -268px;
+      margin-left: -255px;
   }
   
  }
 
- @media(max-width: 330px){
-  .portfolio-wrapper h1{
-    font-size: 1.7rem
-  }
-
-  #portfolio-overlap{
-      margin-left: -240.5px;
-  }
-  
- }
 
 /*------------------------ POPUP ------------------------*/
 .popupbox-wrapper{
