@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css';
 import App from './App';
-import './fonts/SF-Pro.ttf'
-import './fonts/SF-Pro-Heavy.otf'
+import './fonts/SF-Pro.woff2'
+import './fonts/SF-Pro-Heavy.woff2'
 
 
 ReactDOM.render(

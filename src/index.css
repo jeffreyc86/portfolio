@@ -1,11 +1,11 @@
 @font-face {
   font-family: "SF-Pro";
-  src: local("neon"), url(./fonts/SF-Pro.ttf) format("truetype");
+  src: local("neon"), url(./fonts/SF-Pro.woff2) format('woff2');
 }
 
 @font-face {
   font-family: "SF-Pro-Heavy";
-  src: local("neon"), url(./fonts/SF-Pro-Heavy.otf) format("opentype");
+  src: local("neon"), url(./fonts/SF-Pro-Heavy.woff2) format('woff2')
 }
 
 /* SFPro-Regular
