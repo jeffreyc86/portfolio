@@ -497,7 +497,7 @@ nav ul li {
 }
 
 .about{
-  font-size: .8rem;
+  font-size: .85rem;
 }
 
 .abt-icon{
@@ -535,7 +535,7 @@ nav ul li {
   }
 
   .about{
-    font-size: .7rem;
+    font-size: .75rem;
   }
 }
 
@@ -704,7 +704,7 @@ nav ul li {
 }
 
 .timeline-content p{
-  font-size: .75rem;
+  font-size: .785rem;
   margin-top: .1rem;
 }
 
@@ -873,7 +873,7 @@ nav ul li {
 }
 
 .popup-desc{
-  font-size: .85rem;
+  font-size: .88rem;
   width: 45rem;
   margin: .5rem 0;
   margin-bottom: .3rem;
@@ -931,7 +931,7 @@ nav ul li {
 
   .popup-desc{
     width: 100%;
-    font-size: .72rem;
+    font-size: .75rem;
   }
 
   .tech-used{
@@ -950,7 +950,7 @@ nav ul li {
   }
 
   .popup-desc{
-    font-size: .6rem;
+    font-size: .61rem;
     width: 100%;
     margin: .25rem 0;
   }
@@ -1217,7 +1217,7 @@ textarea.form-control {
 }
 
 .footer-contact{
-  font-size: .8rem
+  font-size: .81rem
 }
 
 .footer a{
@@ -1256,23 +1256,12 @@ textarea.form-control {
 
 .copyright {
   padding-top: .4rem;
-  font-size: .6rem;
+  font-size: .61rem;
 }
 
 .footer-icon{
   font-size: 1.5rem;
   margin: 0 .5rem;
-}
-
-@media(max-width: 850px){
-
-  .footer-contact{
-    font-size: .8rem;
-  }
-}
-
-@media(max-width: 768px){
-  padding-top: 1rem;
 }
 
 @media(max-width: 620px){
@@ -1282,7 +1271,7 @@ textarea.form-control {
   }
 
   .copyright {
-    font-size: .5rem;
+    font-size: .51rem;
   }
 }
 
