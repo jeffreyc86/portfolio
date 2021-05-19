@@ -899,7 +899,7 @@ nav ul li {
   cursor: pointer;
   color: black;
   margin: 0 1rem;
-  font-size: .9rem;
+  font-size: 1rem;
 }
 
 .hyper-link:hover{
@@ -915,6 +915,7 @@ nav ul li {
 
 .popup-icon {
   margin-right: .25rem;
+  color: #157ffb
 }
 
 .popup-links span{
@@ -968,15 +969,17 @@ nav ul li {
   }
 
   .popup-links{
-    font-size: .75rem;
+    font-size: .8rem;
   }
 }
 
-@media(max-width: 465px){
+@media(max-width: 550px){
   .popup-links{
-    font-size: .5rem;
+    font-size: .7rem;
   }
+
 }
+
 
 /* HEIGHT */
 
@@ -999,7 +1002,7 @@ nav ul li {
   }
 
   .popup-links{
-    font-size: .55rem;
+    font-size: .7rem;
   }
 }
 
