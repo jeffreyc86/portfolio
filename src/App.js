@@ -6,8 +6,13 @@ import Experience from "./components/Experience"
 import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+import ReactGA from "react-ga";
 
 function App() {
+
+  // Google Analytics Set Up
+  const gaTrackingId = "UA-197837085-1";
+  ReactGA.initialize(gaTrackingId);
 
   return (
     <div className="app">
