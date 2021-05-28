@@ -13,6 +13,7 @@ function App() {
   // Google Analytics Set Up
   const gaTrackingId = "UA-197837085-1";
   ReactGA.initialize(gaTrackingId);
+  ReactGA.pageview("/");
 
   return (
     <div className="app">
