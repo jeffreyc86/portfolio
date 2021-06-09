@@ -111,7 +111,7 @@ nav ul li {
 
 .home-wrapper::before {    
   content: "";
-  background-image: url(home.jpg);
+  background-image: url(https://res.cloudinary.com/dfpkfgg80/image/upload/v1623267068/home_bnfykm.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -744,8 +744,10 @@ nav ul li {
    }
   }
 
- .home-background {    
-  object-fit: cover;
+ .portfolio-wrapper::before {    
+  content: "";
+  background-image: url(https://res.cloudinary.com/dfpkfgg80/image/upload/v1623267968/code-background_zposv7.jpg);
+  background-size: cover;
   position: absolute;
   top: 0px;
   right: 0px;

@@ -5,7 +5,6 @@ import { Link } from "react-scroll";
 function Home() {
   return (
     <div id="home" className="home-wrapper">
-      <img className="home-background" src="/home.jpg" alt="home background" />
       <div className="main-info">
         <div className="glitch-container">
           <h1>JEFFREY CHIU</h1>
