@@ -744,10 +744,8 @@ nav ul li {
    }
   }
 
- .portfolio-wrapper::before {    
-  content: "";
-  background-image: url(code-background.jpg);
-  background-size: cover;
+ .home-background {    
+  object-fit: cover;
   position: absolute;
   top: 0px;
   right: 0px;
