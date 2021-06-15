@@ -1,15 +1,31 @@
-@font-face {
+/* @font-face {
   font-family: "SF-Pro";
-  src: local("neon"), url(./fonts/SF-Pro.woff2) format('woff2');
+  src: local("neon"), url(./fonts/SF Pro.woff2) format('woff2');
 }
 
 @font-face {
   font-family: "SF-Pro-Heavy";
-  src: local("neon"), url(./fonts/SF-Pro-Heavy.woff2) format('woff2')
+  src: local("neon"), url(./fonts/SF Pro Display.woff2) format('woff2')
+} */
+
+@font-face {
+    font-family: 'SF Pro';
+    src: url('SFPro-Regular.woff2') format('woff2'),
+        url('SFPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
-/* SFPro-Regular
-SFProDisplay-Black */
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('SFProDisplay-Black.woff2') format('woff2'),
+        url('SFProDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro&display=swap');
 
@@ -38,7 +54,7 @@ SFProDisplay-Black */
 }
 
 body {
-  font-family: 'SF-Pro', monospace;
+  font-family: 'SF Pro', monospace;
 }
 
 .App {
@@ -514,7 +530,7 @@ nav ul li {
 
 .abt-heading{
   color: var(--primary-aqua);
-  font-family: 'SF-Pro-Heavy', monospace !important;
+  font-family: 'SF Pro Display', monospace !important;
   text-transform: uppercase;
 }
 
@@ -531,7 +547,7 @@ nav ul li {
   text-decoration: none;
   color: var(--primary-dark-grey);
   cursor: pointer;
-  font-family: 'SF-Pro';
+  font-family: 'SF Pro';
 }
 
 .abt-icon:hover{
@@ -600,7 +616,7 @@ nav ul li {
   text-transform: uppercase;
   text-align: center;
   color: var(--primary-aqua);
-  font-family: 'SF-Pro-Heavy', monospace !important;
+  font-family: 'SF Pro Display', monospace !important;
  }
 
 #exp-overlap{
@@ -790,7 +806,7 @@ nav ul li {
 
  .portfolio-wrapper h1{
     color: var(--primary-aqua);
-    font-family: 'SF-Pro-Heavy', monospace !important;
+    font-family: 'SF Pro Display', monospace !important;
     margin-bottom: 0 !important;
  }
 
@@ -1067,7 +1083,7 @@ nav ul li {
   text-transform: uppercase;
   text-align: center;
   color: var(--primary-aqua);
-  font-family: 'SF-Pro-Heavy', monospace !important;
+  font-family: 'SF Pro Display', monospace !important;
 }
 
 #contact-overlap{
@@ -1254,7 +1270,7 @@ textarea.form-control {
   text-decoration: none;
   color: white;
   cursor: pointer;
-  font-family: 'SF-Pro';
+  font-family: 'SF Pro';
   position:relative;
 }
 
