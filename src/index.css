@@ -111,7 +111,7 @@ nav ul li {
 
 .home-wrapper::before {    
   content: "";
-  background-image: url(https://res.cloudinary.com/dfpkfgg80/image/upload/v1623267068/home_bnfykm.jpg);
+  background-image: url(https://res.cloudinary.com/dfpkfgg80/image/upload/v1623708486/home-min_2_ukxoyn.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -746,7 +746,7 @@ nav ul li {
 
  .portfolio-wrapper::before {    
   content: "";
-  background-image: url(https://res.cloudinary.com/dfpkfgg80/image/upload/v1623267968/code-background_zposv7.jpg);
+  background-image: url(https://res.cloudinary.com/dfpkfgg80/image/upload/v1623708451/code-background-min_1_xyhuhx.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
