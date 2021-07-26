@@ -25,7 +25,7 @@ function Experience() {
             </h6>
             <span className="dates-employed">August 2021 - Present</span>
             <p>
-              Xaxis transforms digital media into business outcomes  by maximizing the ROI of its clients’ digital media investments. By combining innovative AI technology, advanced cross-channel solutions, and dedicated programmatic expertise, Xaxis is able to develop and optimize success metrics that connect directly with a client's business goals.
+              Xaxis transforms digital media into business outcomes by maximizing the ROI of its clients’ digital media investments. By combining innovative AI technology, advanced cross-channel solutions, and dedicated programmatic expertise, Xaxis is able to develop and optimize success metrics that connect directly with a client's business goals.
             </p>
           </div>
         </div>
