@@ -12,6 +12,26 @@ function Experience() {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
+            <h5>Software Engineer, Front End</h5>
+            <h6 className="employer">
+              @{" "}
+              <a
+                href="https://www.xaxis.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Xaxis
+              </a>
+            </h6>
+            <span className="dates-employed">August 2021 - Present</span>
+            <p>
+              Xaxis transforms digital media into business outcomes by maximizing the ROI of its clients’ digital media investments. By combining innovative AI technology, advanced cross-channel solutions, and dedicated programmatic expertise, Xaxis is able to develop and optimize success metrics that connect directly with a client's business goals.
+            </p>
+          </div>
+        </div>
+        <div className="timeline-block timeline-block-right">
+          <div className="marker"></div>
+          <div className="timeline-content">
             <h5>Web Development Volunteer</h5>
             <h6 className="employer">
               @{" "}
@@ -33,7 +53,7 @@ function Experience() {
             </p>
           </div>
         </div>
-        <div className="timeline-block timeline-block-right">
+        <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
             <h5>Software Engineering Student</h5>
@@ -58,7 +78,7 @@ function Experience() {
             </p>
           </div>
         </div>
-        <div className="timeline-block timeline-block-left">
+        <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
             <h5>Analyst, Business Development</h5>
@@ -78,7 +98,7 @@ function Experience() {
             </p>
           </div>
         </div>
-        <div className="timeline-block timeline-block-right">
+        <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
             <h5>Account Executive</h5>
@@ -101,7 +121,7 @@ function Experience() {
             </p>
           </div>
         </div>
-        <div className="timeline-block timeline-block-left">
+        <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
             <h5>Assistant Showroom Manager, Account Executive</h5>
