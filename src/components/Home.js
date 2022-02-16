@@ -16,9 +16,11 @@ function Home() {
           strings={[
             "Full-Stack Software Engineer",
             "Based in NYC",
+            "TypeScript",
             "JavaScript",
             "React",
             "Redux",
+            "Node.js",
             "Ruby on Rails",
             "HTML",
             "CSS",

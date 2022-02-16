@@ -74,15 +74,23 @@ function About () {
               <tbody>
                 <tr>
                   <td>
-                    <span className="skill-arrow">ᐅ</span> JavaScript (ES6+)
+                    <span className="skill-arrow">ᐅ</span> TypeScript
                   </td>
                   <td>
-                    <span className="skill-arrow">ᐅ</span> React
+                    <span className="skill-arrow">ᐅ</span> JavaScript (ES6+)
                   </td>
                 </tr>
                 <tr>
                   <td>
+                    <span className="skill-arrow">ᐅ</span> React
+                  </td>
+                  <td>
                     <span className="skill-arrow">ᐅ</span> Redux
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span className="skill-arrow">ᐅ</span> Node.js
                   </td>
                   <td>
                     <span className="skill-arrow">ᐅ</span> Ruby on Rails
